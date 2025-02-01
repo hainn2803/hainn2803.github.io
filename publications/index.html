@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
     <link rel="shortcut icon" href="/assets/img//assets/img/favicon.ico" />
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://khainb.github.io/publications/">
+    <link rel="canonical" href="https://hainn2803.github.io/publications/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
@@ -71,17 +71,48 @@
             <h2 class="year">2025</h2>
             <ol class="bibliography">
 
+
+              <li>
+
+                <div class="row">
+                  <div class="col-sm-2 abbr"> 
+                    <abbr class="badge" style="background-color:#820000"><a href="https://iclr.cc/" target="_blank" rel="noopener noreferrer">ICLR</a></abbr> 
+                  </div>
+
+                  <div id="nguyen2025lightspeed" class="col-sm-9">
+                    <div class="title">Lightspeed Geometric Dataset Distances via Projections</div>
+                    <div class="author">
+                        <a href="https://khainb.github.io/" target="_blank" rel="noopener noreferrer">Khai Nguyen *</a>, <em>Hai Nguyen *</em>, <a href="https://scholar.google.com/citations?user=GvkeuOUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Tuan Pham</a>, and <a href="https://nhatptnk8912.github.io/" target="_blank" rel="noopener noreferrer">Nhat Ho</a>
+                    </div>
+
+                    <div class="periodical"> 
+                      <em>Under Review</em> 
+                    </div> 
+
+                    <div class="links">
+                      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+                      <a href="https://arxiv.org/pdf/2405.07482.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+                    </div>
+                    <div class="abstract hidden">
+                      <p>We introduce  <i>sliced optimal transport dataset distance</i> (s-OTDD), a model-agnostic, embedding-agnostic approach for dataset comparison that requires no training, is robust to variations in the number of classes, and can handle disjoint label sets. The core innovation is  Moment Transform Projection (MTP), which maps a label, represented as a distribution over features, to a real number. Using MTP, we derive a data point projection that transforms datasets into one-dimensional distributions. The s-OTDD is defined as the expected Wasserstein distance between the projected distributions, with respect to random projection parameters. Leveraging the closed form solution of one-dimensional optimal transport, s-OTDD achieves (near-)linear computational complexity in the number of data points and feature dimensions and is independent of the number of classes. With its geometrically meaningful projection, s-OTDD strongly correlates with the optimal transport dataset distance while being more efficient than existing dataset discrepancy measures. Moreover, it correlates well with the performance gap in transfer learning and classification accuracy in data augmentation.</p>
+                    </div>
+
+                  </div>
+                </div>
+              </li>
+
+
               <li>
                 <div class="row">
                   <div class="col-sm-2 abbr"> 
                     <abbr class="badge" style="background-color:#820000"><a href="https://iclr.cc/" target="_blank" rel="noopener noreferrer">ICLR</a></abbr> 
                   </div>
-                  <div id="nguyen2024fair" class="col-sm-9">
+                  <div id="nguyen2025towards" class="col-sm-9">
                     <div class="title">Towards Marginal Fairness Sliced Wasserstein Barycenter</div>
                     <div class="author">
                         <a href="https://hainn2803.github.io/" target="_blank" rel="noopener noreferrer">Khai Nguyen *</a>, <em>Hai Nguyen *</em>, and <a href="https://nhatptnk8912.github.io/" target="_blank" rel="noopener noreferrer">Nhat Ho</a>
                     </div>
-                    
+
                     <div class="periodical"> 
                       <em>International Conference on Learning Representations</em> 
                     </div> 
@@ -92,8 +123,9 @@
                       <a href="https://arxiv.org/pdf/2405.07482.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
                     </div>
                     <div class="abstract hidden">
-                      <p>The sliced Wasserstein barycenter (SWB) is a widely acknowledged method for efficiently generalizing the averaging operation within probability measure spaces. However, achieving marginal fairness SWB, ensuring approximately equal distances from the barycenter to marginals, remains unexplored. The uniform weighted SWB is not necessarily the optimal choice to obtain the desired marginal fairness barycenter due to the heterogeneous structure of marginals and the non-optimality of the optimization. As the first attempt to tackle the problem, we define the marginal fairness sliced Wasserstein barycenter (MFSWB) as a constrained SWB problem. Due to the computational disadvantages of the formal definition, we propose two hyperparameter-free and computationally tractable surrogate MFSWB problems that implicitly minimize the distances to marginals and encourage marginal fairness at the same time. To further improve the efficiency, we perform slicing distribution selection and obtain the third surrogate definition by introducing a new slicing distribution that focuses more on marginally unfair projecting directions. We discuss the relationship of the three proposed problems and their relationship to sliced multi-marginal Wasserstein distance. Finally, we conduct experiments on finding 3D point-clouds averaging, color harmonization, and training of sliced Wasserstein autoencoder with class-fairness representation to show the favorable performance of the proposed surrogate MFSWB problems.</p>
+                      <p>The Sliced Wasserstein barycenter (SWB) is a widely acknowledged method for efficiently generalizing the averaging operation within probability measure spaces. However, achieving marginal fairness SWB, ensuring approximately equal distances from the barycenter to marginals, remains unexplored. The uniform weighted SWB is not necessarily the optimal choice to obtain the desired marginal fairness barycenter due to the heterogeneous structure of marginals and the non-optimality of the optimization. As the first attempt to tackle the problem, we define the marginal fairness sliced Wasserstein barycenter (MFSWB) as a constrained SWB problem. Due to the computational disadvantages of the formal definition, we propose two hyperparameter-free and computationally tractable surrogate MFSWB problems that implicitly minimize the distances to marginals and encourage marginal fairness at the same time. To further improve the efficiency, we perform slicing distribution selection and obtain the third surrogate definition by introducing a new slicing distribution that focuses more on marginally unfair projecting directions. We discuss the relationship of the three proposed problems and their relationship to sliced multi-marginal Wasserstein distance. Finally, we conduct experiments on finding 3D point-clouds averaging, color harmonization, and training of sliced Wasserstein autoencoder with class-fairness representation to show the favorable performance of the proposed surrogate MFSWB problems.</p>
                     </div>
+
                   </div>
                 </div>
               </li>
