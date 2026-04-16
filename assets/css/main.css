@@ -154,11 +154,17 @@ blockquote {
 
 .cornell-footer-logo {
   margin-top: 16px;
+  text-align: center;
+}
+
+.cornell-footer-logo a {
+  display: inline-block;
 }
 
 .cornell-footer-logo img {
-  height: 22px;
+  height: 24px;
   width: auto;
+  display: block;
 }
 
 .equation {
