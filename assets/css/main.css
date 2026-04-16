@@ -161,6 +161,18 @@ blockquote {
   width: auto;
 } */
 
+.name-with-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cornell-name-logo {
+  height: 34px;
+  width: auto;
+  display: block;
+}
+
 .equation {
   margin-bottom: 1rem;
   text-align: center;
