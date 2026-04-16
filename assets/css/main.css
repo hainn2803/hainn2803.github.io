@@ -168,9 +168,9 @@ blockquote {
 }
 
 .cornell-name-logo {
-  height: 24px !important;
+  height: 28px !important;
   width: auto !important;
-  max-height: 24px !important;
+  max-height: 28px !important;
   display: inline-block;
   vertical-align: middle;
   object-fit: contain;
