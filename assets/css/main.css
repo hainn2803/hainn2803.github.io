@@ -46,15 +46,6 @@ html[data-theme="dark"] {
   --global-card-bg-color: #212529;
 }
 
-.cornell-footer-logo {
-  margin-top: 16px;
-}
-
-.cornell-footer-logo img {
-  height: 32px;
-  width: auto;
-}
-
 html[data-theme="dark"] .fa-sun {
   padding-left: 10px;
   padding-top: 12px;
@@ -159,6 +150,15 @@ blockquote {
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   font-size: 1.2rem;
+}
+
+.cornell-footer-logo {
+  margin-top: 16px;
+}
+
+.cornell-footer-logo img {
+  height: 32px;
+  width: auto;
 }
 
 .equation {
