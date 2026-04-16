@@ -162,15 +162,18 @@ blockquote {
 } */
 
 .name-with-logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 .cornell-name-logo {
-  height: 24px;
-  width: auto;
-  display: block;
+  height: 24px !important;
+  width: auto !important;
+  max-height: 24px !important;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
 }
 
 .equation {
