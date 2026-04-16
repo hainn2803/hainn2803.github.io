@@ -152,28 +152,13 @@ blockquote {
   font-size: 1.2rem;
 }
 
-/* .cornell-footer-logo {
+.cornell-footer-logo {
   margin-top: 16px;
 }
 
 .cornell-footer-logo img {
-  height: 32px;
+  height: 28px;
   width: auto;
-} */
-
-.name-with-logo {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.cornell-name-logo {
-  height: 28px !important;
-  width: auto !important;
-  max-height: 28px !important;
-  display: inline-block;
-  vertical-align: middle;
-  object-fit: contain;
 }
 
 .equation {
